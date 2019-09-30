@@ -18,7 +18,7 @@ body {
 
 .header {
 	height: 490px;
-	background: #F3F7FA;
+/* 	background: #F3F7FA; */
 }
 
 .header__nav {
@@ -474,8 +474,13 @@ body {
 }
 
 
+.database {
+	height: 910px;
+/* 	background-color: #F3F7FA; */
+}
+
 .database-container {
-	height: 800px;
+	height: 916px;
 	background-color: #F3F7FA;
 	display: flex;
 	flex-direction: row;
@@ -511,11 +516,7 @@ body {
 
 .image-rightEllipse {
 	position: absolute;
-}
-
-.database {
-	height: 910px;
-	background-color: #F3F7FA;
+	right: 0;
 }
 
 .database__info {
@@ -557,6 +558,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding-top: 90px;
 }
 
 .price__block h2 {

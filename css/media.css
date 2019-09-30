@@ -665,6 +665,14 @@
 		height: 258px;
 	}
 
+	.database {
+		height: 620px;
+	}
+
+	.database-container {
+		height: 620px;
+	}
+
 	.database__info {
 		position: absolute;
 		left: 285px;
@@ -684,10 +692,6 @@
 	.block-2 {
 		top: 340px;
 		left: -40px;
-	}
-
-	.database {
-		height: 620px;
 	}
 
 	.database__info-block {
@@ -875,6 +879,7 @@
 
 	.database {
 		height: 920px;
+		background-color: #F3F7FA;
 	}
 
 	.database-container {
@@ -1019,32 +1024,50 @@
 
 @media screen and (max-width: 425px) {
 
+	.header {
+		background-color: #F3F7FA;
+	}
+
 	.navigation__link {
 		width: 260px;
 	}
 
-	.video-container,
-	.video__screen {
-		max-width: 350px;
+	.video-container {
+		max-width: 425px;
 		width: 100%;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
 	}
 
 	.video__screen {
-		left: 0px;
+		left: 40px;
 		top: 310px;
+		max-width: 380px;
+		width: 100%;
+		padding: 0;
 	}
 
-	.video__wrapper,
-	.video__wrapper h2,
-	.video__wrapper p {
-		max-width: 350px;
+	.video__wrapper {
+		max-width: 345px;
+		width: 100%;
+		padding: 0;
+		left: 10px;
+	}
+
+	.video__wrapper h2 {
+		max-width: 405px;
 		width: 100%;
 		padding: 0;
 	}
 
 	.video__wrapper p {
-		left: 5px;
+		left: 10px;
 		top: 90px;
+		max-width: 345px;
+		width: 100%;
+		padding: 0;
 	}
 
 	.trial-container {
@@ -1104,10 +1127,16 @@
 	.video__screen {
 		max-width: 345px;
 		height: 215px;
+		margin-top: 30px;
+		left: 12px;
 	}
 
 	.trial-container h2 {
 		width: 375px;
+	}
+
+	.images-left {
+		top: -75px;
 	}
 
 	.price__block h2 {
@@ -1140,11 +1169,25 @@
 		width: 300px;
 	}
 
+	.video-container {
+		height: 610px;
+	}
+
+	.video__wrapper {
+		left: 0;
+	}
+
+	.video__wrapper h2 {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
 	.video__wrapper p {
 		margin-left: 10px;
 		top: 90px;
 		max-width: 300px;
 		width: 100%;
+		font-size: 14px;
 	}
 
 	.video__screen {
