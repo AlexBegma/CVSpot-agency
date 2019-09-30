@@ -203,6 +203,28 @@
 		top: 205px;
 		left: -240px;
 	}
+
+	.price-container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.price__item {
+		width: 210px;
+	}
+
+	.contacts-container {
+		max-width: 1024px;
+		width: 100%;
+	}
+
+	.contacts__header {
+		top: 140px;
+	}
+
+	.contacts__info {
+		width: 390px;
+	}
 }
 
 @media screen and (max-width: 992px) {
@@ -352,6 +374,15 @@
 		width: 70%;
 		height: 100%;
 		top: 35px;
+		right: 0;
+	}
+
+	.video-container {
+		height: 340px;
+	}
+
+	.database {
+		height: 730px;
 	}
 
 	.price__block h2 {
@@ -992,16 +1023,28 @@
 		width: 260px;
 	}
 
+	.video-container,
 	.video__screen {
-		left: 15px;
+		max-width: 350px;
+		width: 100%;
+	}
+
+	.video__screen {
+		left: 0px;
 		top: 310px;
 	}
 
+	.video__wrapper,
+	.video__wrapper h2,
 	.video__wrapper p {
-		left: 15px;
-		top: 90px;
-		max-width: 405px;
+		max-width: 350px;
 		width: 100%;
+		padding: 0;
+	}
+
+	.video__wrapper p {
+		left: 5px;
+		top: 90px;
 	}
 
 	.trial-container {
@@ -1042,6 +1085,15 @@
 	}
 
 	.header__main-info {
+		margin-left: 0;
+	}
+
+	.advatages-container {
+		max-width: 375px;
+		width: 100%;
+	}
+
+	.advatages__items {
 		margin-left: 0;
 	}
 
@@ -1089,7 +1141,7 @@
 	}
 
 	.video__wrapper p {
-		left: 10px;
+		margin-left: 10px;
 		top: 90px;
 		max-width: 300px;
 		width: 100%;
