@@ -711,6 +711,10 @@
 		right: 0px;
 	}
 
+	.price-container {
+		height: 600px;
+	}
+
 	.footer-container {
 		max-width: 768px;
 		width: 100%;

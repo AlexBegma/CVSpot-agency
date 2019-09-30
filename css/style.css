@@ -544,9 +544,12 @@ body {
 	color: #2198f3;
 }
 
+.price {
+	height: 600px;
+}
 
 .price-container {
-	height: 510px;
+	height: 600px;
 	background-color: #F3F7FA;
 	display: flex;
 	justify-content: center;
