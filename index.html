@@ -8,6 +8,12 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:700|Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+	<script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+	<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+	<!-- Don't use this in production: -->
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
 </head>
@@ -222,65 +228,71 @@
 		</div>
 	</section>
 
+<div class="root">
+	
+</div>
+
 	<section class="price">
 		<div class="container price-container">
 			<div class="price__block">
 				<h2>Our Price</h2>
-				<div class="price__wrapp">
-					<div class="price__item">
-						<div class="price__head">
-							<p>1 month</p>
-							<span>$ 39.99</span>/ mo
+				<div class="price__wrapp app">
+					<div class="list">
+						<div class="price__item">
+							<div class="price__head">
+								<p>1 month</p>
+								<span>$ 39.99</span>/ mo
+							</div>
+							<div class="price__body">
+								<p>Benefit</p>
+								<p>Unlimited searches</p>
+								<p>24/7 support</p>
+							</div>
+							<div class="price__footer">
+								<button>Buy now</button>
+							</div>
 						</div>
-						<div class="price__body">
-							<p>Benefit</p>
-							<p>Unlimited searches</p>
-							<p>24/7 suppor</p>
+						<div class="price__item">
+							<div class="price__head">
+								<p>3 month</p>
+								<span>$ 33.99</span>/ mo
+							</div>
+							<div class="price__body">
+								<p>Benefit</p>
+								<p>Unlimited searches</p>
+								<p>24/7 support</p>
+							</div>
+							<div class="price__footer">
+								<button>Buy now</button>
+							</div>
 						</div>
-						<div class="price__footer">
-							<button>Buy now</button>
+						<div class="price__item">
+							<div class="price__head">
+								<p>6 month</p>
+								<span>$ 29.99</span>/ mo
+							</div>
+							<div class="price__body">
+								<p>Benefit</p>
+								<p>Unlimited searches</p>
+								<p>24/7 support</p>
+							</div>
+							<div class="price__footer">
+								<button>Buy now</button>
+							</div>
 						</div>
-					</div>
-					<div class="price__item">
-						<div class="price__head">
-							<p>3 month</p>
-							<span>$ 33.99</span>/ mo
-						</div>
-						<div class="price__body">
-							<p>Benefit</p>
-							<p>Unlimited searches</p>
-							<p>24/7 suppor</p>
-						</div>
-						<div class="price__footer">
-							<button>Buy now</button>
-						</div>
-					</div>
-					<div class="price__item">
-						<div class="price__head">
-							<p>6 month</p>
-							<span>$ 29.99</span>/ mo
-						</div>
-						<div class="price__body">
-							<p>Benefit</p>
-							<p>Unlimited searches</p>
-							<p>24/7 suppor</p>
-						</div>
-						<div class="price__footer">
-							<button>Buy now</button>
-						</div>
-					</div>
-					<div class="price__item">
-						<div class="price__head">
-							<p>12 month</p>
-							<span>$ 10.99</span>/ mo
-						</div>
-						<div class="price__body">
-							<p>Benefit</p>
-							<p>Unlimited searches</p>
-							<p>24/7 suppor</p>
-						</div>
-						<div class="price__footer">
-							<button>Buy now</button>
+						<div class="price__item">
+							<div class="price__head">
+								<p>12 month</p>
+								<span>$ 10.99</span>/ mo
+							</div>
+							<div class="price__body">
+								<p>Benefit</p>
+								<p>Unlimited searches</p>
+								<p>24/7 support</p>
+							</div>
+							<div class="price__footer">
+								<button>Buy now</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -338,5 +350,7 @@
 		</div>
 	</footer>
 
+	<!-- <script src="js/main.js"></script> -->
+	<script type="text/babel" src="js/react.js"></script>
 </body>
 </html>

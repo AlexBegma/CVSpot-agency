@@ -573,7 +573,7 @@ body {
 	margin-bottom: 40px;
 }
 
-.price__wrapp {
+.list {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
