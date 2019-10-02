@@ -5,14 +5,11 @@
 	<title>CVSpot-agency</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="shortcut icon" type="image/x-icon" href="images/resume.png">
+
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:700|Roboto&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-
-	<script src="https://unpkg.com/react@16/umd/react.development.js"></script>
-	<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-	<!-- Don't use this in production: -->
-	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
@@ -228,14 +225,13 @@
 		</div>
 	</section>
 
-<div class="root">
-	
-</div>
-
 	<section class="price">
 		<div class="container price-container">
 			<div class="price__block">
 				<h2>Our Price</h2>
+				<div id="root">
+
+				</div>
 				<div class="price__wrapp app">
 					<div class="list">
 						<div class="price__item">
@@ -350,7 +346,12 @@
 		</div>
 	</footer>
 
-	<!-- <script src="js/main.js"></script> -->
-	<script type="text/babel" src="js/react.js"></script>
+	<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+	<script src="js/main.js"></script>
+	<script src="react.js"></script>
 </body>
 </html>
