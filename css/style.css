@@ -545,11 +545,11 @@ body {
 }
 
 .price {
-	height: 600px;
+	height: 650px;
 }
 
 .price-container {
-	height: 600px;
+	height: 650px;
 	background-color: #F3F7FA;
 	display: flex;
 	justify-content: center;
